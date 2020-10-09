@@ -15,17 +15,12 @@ function bumpCounter() {
 }
 
 function createAnimal(animalType) {
-  const sharkCreator = 'shark'
-  
-  function innerFunk (deadlyDevice) {
-    return 
-    {animalType, deadlyDevice}
-  }
-  
-  function sharkCreator(createAnimal) {
-    
-  }
-  return {
-    
+  function innerFunction(deadlyDevice) {
+    return { animalType, deadlyDevice}
   }
 }
+
+var sharkCreator = createAnimal('shark')
+var sharkWithFreakingLaserbeam = { 'shark', 'Laserbeam'}
+
+
