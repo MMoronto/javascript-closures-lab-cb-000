@@ -14,4 +14,18 @@ function bumpCounter() {
   }
 }
 
-
+function createAnimal(animalType) {
+  const sharkCreator = 'shark'
+  
+  function innerFunk (deadlyDevice) {
+    return 
+    {animalType, deadlyDevice}
+  }
+  
+  function sharkCreator(createAnimal) {
+    
+  }
+  return {
+    
+  }
+}
