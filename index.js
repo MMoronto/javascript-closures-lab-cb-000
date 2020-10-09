@@ -6,7 +6,7 @@ function bumpCounter() {
   }
   
   function getBumps() {
-    return incr 
+    return counter 
   }
   return {
     addBump,
