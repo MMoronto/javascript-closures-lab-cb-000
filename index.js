@@ -2,7 +2,7 @@ function bumpCounter() {
   var counter = 0
   
   function addBump() {
-    incr = counter++
+    counter++
   }
   
   function getBumps() {
