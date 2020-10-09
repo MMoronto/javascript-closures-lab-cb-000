@@ -1,8 +1,8 @@
 function bumpCounter() {
-  var counter = i
+  var counter = 0
   
   function addBump() {
-    incr = counter + 1
+    incr = counter++
   }
   
   function getBumps() {
